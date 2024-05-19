@@ -1,0 +1,43 @@
+.Cards {
+    display: flex;
+    gap: 10px;
+}
+.parentContainer {
+    width: 100%;
+}
+.CompactCard {
+    display: flex;
+    height: 7rem !important;
+    border-radius: 0.7rem;
+    color: white;
+    cursor: pointer;
+    position: relative;
+
+}
+.CompactCard :hover{
+    box-shadow: none;
+}
+.radialBar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2rem;
+
+}
+.details {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+
+}
+.CircularProgressbar {
+    width: 6rem !important;
+    
+}
+.CircularProgressbar-path {
+  color: white !important;
+}
+.CircularProgressbar-trail {
+
+}
