@@ -33,4 +33,17 @@
   background-color: var(--glass);
   overflow: hidden;
   grid-template-columns: 11rem auto 20rem;
+  gap: 20px;
+  /* Adjust the value to your desired gap size */
+}
+.Nav {
+  display: flex;
+  justify-content: center;
+  /* display:'flex';
+  justify-content:'center';
+  position: fixed;
+  bottom: 0;
+  width: 50%; */
+
+
 }
